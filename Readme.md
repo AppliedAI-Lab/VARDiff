@@ -28,6 +28,7 @@ conda activate VARDiff
 ```
 
 ## 🚀 Usage  
+
 🔹 Retrieval Process (to create reference database)
 ```bash
 cd retrieval
