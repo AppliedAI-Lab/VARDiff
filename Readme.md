@@ -27,8 +27,8 @@ conda env create -f requirements.yaml
 conda activate VARDiff
 ```
 
-🚀 Usage
-🔹 Retrieval Process (to create database)
+##🚀 Usage  
+🔹 Retrieval Process (to create reference database)
 ```bash
 cd retrieval
 python univariate_embedding.py
@@ -46,7 +46,7 @@ cd scripts
 ./diffusion.sh
 ```
 📖 Citation
-
+```bash
 If you find this work useful, please consider citing:
 @article{vardiff2025,
   title={VARDiff: Vision-Augmented Retrieval-Guided Diffusion for Stock Forecasting},
@@ -54,6 +54,6 @@ If you find this work useful, please consider citing:
   year={2025},
   journal={arXiv preprint arXiv:xxxx.xxxxx}
 }
-
+```
 
 
