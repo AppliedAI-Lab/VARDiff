@@ -27,7 +27,7 @@ conda env create -f requirements.yaml
 conda activate VARDiff
 ```
 
-##🚀 Usage  
+## 🚀 Usage  
 🔹 Retrieval Process (to create reference database)
 ```bash
 cd retrieval
@@ -45,7 +45,7 @@ Run with default settings or tune hyperparameters:
 cd scripts
 ./diffusion.sh
 ```
-📖 Citation
+## 📖 Citation
 ```bash
 If you find this work useful, please consider citing:
 @article{vardiff2025,
