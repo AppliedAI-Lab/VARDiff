@@ -19,28 +19,32 @@ Clone the repository:
 ```bash
 git clone https://github.com/AppliedAI-Lab/VARDiff.git
 cd VARDiff
-
+```
 Install dependencies:
 We provide a requirements.yaml file for Conda environment configured to run the model:
+```bash
 conda env create -f requirements.yaml
 conda activate VARDiff
-
 ```
+
 🚀 Usage
 🔹 Retrieval Process (to create database)
+```bash
 cd retrieval
 python univariate_embedding.py
-
+```
 Or using the provided script:
+```bash
 cd scripts
 ./retriever.sh
-
+```
 🔹 Diffusion Process (to generate forecasts)
 
 Run with default settings or tune hyperparameters:
+```bash
 cd scripts
 ./diffusion.sh
-
+```
 📖 Citation
 
 If you find this work useful, please consider citing:
