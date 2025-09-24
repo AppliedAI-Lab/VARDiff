@@ -44,16 +44,14 @@ python univariate_embedding.py \
   --step_size_list 5 \
   --num_first_layers 4
 ```
-symbol_list → list of datasets/symbols (9 symbols in this paper)
+**Notes:**  
+• `symbol_list` → list of datasets/symbols *(9 symbols in this paper)*  
+• `his_len_list` → historical lengths for benchmark *(future length = historical length)*  
+• `num_first_layers` → number of first layers from pretrained vision encoder  
+• `step_size_list` → step sizes *(details in Section 6.4 of the paper)*  
+• ⚡ Default: number of retrieved references k = 10 by default because it can reuser for smaller cases)
 
-his_len_list → historical lengths for benchmark (future length = historical length)
-
-num_first_layers → number of first layers from pretrained vision encoder
-
-step_size_list → step sizes (details in Section 6.4 of the paper)
-
-⚡ Note: number of retrieved references k = 10 by default because it can reuser for smaller cases)
-Or Or simply use the provided script:
+Or simply use the provided script:
 ```bash
 cd scripts
 ./retriever.sh
