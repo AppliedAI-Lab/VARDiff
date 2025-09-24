@@ -70,6 +70,7 @@ python multivariate_embedding.py \
 
 ```
 🔹 Diffusion Process (to generate forecasts)
+
 ▶️ Run on a specific dataset
 
 Works for both univariate & multivariate:
