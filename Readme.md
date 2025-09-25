@@ -87,9 +87,10 @@ cd scripts
 If you find this work useful, please consider citing:
 @article{vardiff2025,
   title={VARDiff: Vision-Augmented Retrieval-Guided Diffusion for Stock Forecasting},
-  author={Your Name and Others},
+  author={N.T.Thu, T.X.Thong, N.K.T.Binh, N.N.Hai},
+  organization={HUST}
   year={2025},
-  journal={arXiv preprint arXiv:xxxx.xxxxx}
+  journal={Information Sciences}
 }
 ```
 
