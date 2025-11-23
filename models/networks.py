@@ -284,7 +284,7 @@ class CrossAttentionBlock(nn.Module):
         query_emb = F.normalize(query_emb, dim=1)     # (B, in_channels // 8 * H // 4 * W // 4)
         key_emb = F.normalize(key_emb, dim=2)         # (B, top_k, in_channels // 8 * H // 4 * W // 4)
 
-        # cosine similarity: (B, top_k)
+        #similarity: (B, top_k)
         scores = torch.einsum('bd,bkd->bk', query_emb, key_emb)
         del combined_emb, query_emb, key_emb
         torch.cuda.empty_cache()
