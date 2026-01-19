@@ -85,12 +85,17 @@ cd scripts
 ## 📖 Citation
 ```bash
 If you find this work useful, please consider citing:
-@article{vardiff2025,
-  title={VARDiff: Vision-Augmented Retrieval-Guided Diffusion for Stock Forecasting},
-  author={N.T.Thu, T.X.Thong, N.K.T.Binh, N.N.Hai},
-  organization={HUST}
-  year={2025},
-  journal={Information Sciences}
+@article{NGUYEN2026123113,
+title = {VARDiff: vision-augmented retrieval-guided diffusion for stock forecasting},
+journal = {Information Sciences},
+pages = {123113},
+year = {2026},
+issn = {0020-0255},
+doi = {https://doi.org/10.1016/j.ins.2026.123113},
+url = {https://www.sciencedirect.com/science/article/pii/S0020025526000447},
+author = {Thi-Thu Nguyen and Xuan-Thong Truong and Thai-Binh Nguyen and Nhat-Hai Nguyen},
+keywords = {Diffusion, Image retrieval, Stock forecasting},
+abstract = {Stock price forecasting is a critical yet inherently difficult task in quantitative finance due to the volatile and non-stationary nature of financial time series. While diffusion models have emerged as promising tools for capturing predictive uncertainty, their effectiveness is often limited by insufficient data and the absence of informative guidance during generation. To address these challenges, we propose VARDiff, a diffusion forecasting architecture conditioned on visual-semantic references retrieved from a historical database. Our core novelty is a cross-attention-based denoising network that operates on delay embedding (DE) image representations of time series, fusing the target trajectory with its visually similar historical counterparts retrieved via a GAF-based visual encoding pipeline using a pre-trained VGG backbone to provide structured guidance during iterative denoising. VARDiff transforms historical price sequences into image representations and extracts semantic embeddings using a pre-trained vision encoder. These embeddings facilitate the retrieval of visually similar historical trajectories, which serve as external references to guide the denoising process of the diffusion model. Extensive experiments on nine benchmark stock datasets show that VARDiff reduces forecasting errors by an average of 16.27% (MSE) and 8.12% (MAE) compared to state-of-the-art baselines. The results underscore the effectiveness of integrating vision-based retrieval into diffusion forecasting, leading to more robust and data-efficient financial prediction.}
 }
 ```
 
