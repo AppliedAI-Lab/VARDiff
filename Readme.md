@@ -1,5 +1,7 @@
 # **VARDiff: Vision-Augmented Retrieval-Guided Diffusion for Stock Forecasting**
 
+This is the source code for the paper **"VARDiff: vision-augmented retrieval-guided diffusion for stock forecasting", which is published in top-tier journal named Information Science, IF = 6.8**.
+
 ## 📌 Overview
 VARDiff is a novel **vision-guided diffusion framework** for **uncertainty-aware stock forecasting**, combining the complementary strengths of diffusion models and vision-based retrieval.
 
